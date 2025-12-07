@@ -16,7 +16,6 @@
     "clean-s": "elog clean &&elog clean -e .env.local -c elog.config.shorturl.js -a elog.cache.json"
   },
   "dependencies": {
-    "@elog/cli": "^0.14.0",
     "@elog/plugin-img-r2": "^0.1.1",
     "@fancyapps/ui": "^5.0.36",
     "@hookform/resolvers": "^3.3.4",
@@ -84,6 +83,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@elog/cli": "^0.14.7",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
